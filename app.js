@@ -1,5 +1,5 @@
 const http = require('http');
-const JePing = require('./Java');
+const JePing = require('./lib/Java');
 const BePing = require('mcpe-ping');
 
 const server = new http.Server();
